@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom";
+
 function Header() {
+  const navigate = useNavigate();
   return (
     <header className="header">
       <div>
@@ -6,7 +9,9 @@ function Header() {
         <p>Real-time polar ocean monitoring system</p>
       </div>
 
-      <div className="profile">
+      <div 
+        className="profile"
+        onClick={() => navigate("/settings")}>
         <div className="profile-avatar">O</div>
 
         <div className="profile-info">

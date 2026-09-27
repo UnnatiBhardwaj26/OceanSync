@@ -1,6 +1,9 @@
 import { NavLink } from "react-router-dom";
 
+
+
 function Sidebar() {
+
   return (
     <aside className="sidebar">
       <div className="logo">
@@ -30,7 +33,7 @@ function Sidebar() {
           Sensor Data
         </NavLink>
 
-      
+        
         <NavLink to="/alerts">Alerts</NavLink>
 
         <NavLink to="/reports">Reports</NavLink>

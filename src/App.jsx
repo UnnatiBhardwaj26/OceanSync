@@ -5,6 +5,8 @@ import Overview from "./pages/Overview";
 import LiveMap from "./pages/LiveMap";
 import SensorData from "./pages/SensorData";
 import Alerts from "./pages/Alerts";
+import Settings from "./pages/Settings";
+
 function App() {
   return (
     <BrowserRouter>
@@ -17,6 +19,7 @@ function App() {
             <Route path="/live-map" element={<LiveMap />} />
             <Route path="/sensor-data" element={<SensorData />} />
             <Route path="/alerts" element={<Alerts />} />
+            <Route path="/settings" element={<Settings />} />
           </Routes>
         </main>
       </div>
