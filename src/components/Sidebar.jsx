@@ -36,7 +36,7 @@ function Sidebar() {
         
         <NavLink to="/alerts">Alerts</NavLink>
 
-        <NavLink to="/reports">Reports</NavLink>
+        
 
         <NavLink to="/settings">Settings</NavLink>
       </nav>
